@@ -1,6 +1,7 @@
 from utils import calculate_discount, is_even, get_full_name
 
 
+
 def test_calculate_discount_20_percent() -> None:
     actual: float = calculate_discount(1000, 20)
     expected: float = 800
